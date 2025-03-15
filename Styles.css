@@ -1,0 +1,101 @@
+.elemento {
+    display: inline-flex;
+}
+
+.elemento > a {
+    background-color:#0033A0;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.fondo_inicio {
+    background-color: #1F4D8B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.fondo_proyectos {
+    background-color: #1F4D8B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.fondo_sobremi {
+    background-color: #1F4D8B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.fondo_academia {
+    background-color: #1F4D8B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0033A0, #000000);
+    padding: 15px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+}
+
+.logo {
+    background-color: none;
+    width: 90px;
+}
+
+
+.lista li a:hover {
+    background-color: #0055ff;
+    transition: all 0.5s ease;
+}
+
+.subtitulo {
+    text-shadow: 1px 1px 2px black;
+}
+
+.titulo {
+    display: inline-flex;
+    margin: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
