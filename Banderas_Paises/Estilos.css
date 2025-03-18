@@ -1,0 +1,56 @@
+.Caja_Colombia{
+    height: 400px;
+    width: 500px;
+    border: solid 2px;
+}
+
+.Caja1{
+    height: 150px;
+    width: 500px;
+    background-color: yellow;
+    position: relative;
+}
+
+.Caja2{
+    height: 125px;
+    width: 500px;
+    background-color: blue;
+}
+
+.Caja3{
+    height: 125px;
+    width: 500px;
+    background-color: red;
+}
+
+
+
+
+.Caja_Rusia{
+    height: 400px;
+    width: 500px;
+    border: solid 2px;
+    margin-top: 20px;
+}
+
+.Caja4{
+    height: 150px;
+    width: 500px;
+    background-color: white;
+}
+
+.Caja5{
+    height: 125px;
+    width: 500px;
+    background-color: blue;
+}
+
+.Caja6{
+    height: 125px;
+    width: 500px;
+    background-color: red;
+}
+
+
+
+

@@ -16,6 +16,25 @@
     width: 100px;
 }
 
+.Barra-nav {
+    background-color: #0033A0;
+    border: #0033A0;
+    border-radius: 5px;
+    color: white;
+    gap: 10px;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Boton-nav{
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #0033A0;
+    border: #0033A0;
+}
+
 .fondo_inicio {
     background-color: #1F4D8B;
     background-position: center;
@@ -72,7 +91,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
     margin: 0;
     margin-right: 50px;
     padding: 0;
@@ -98,4 +117,30 @@ nav {
     margin: 10px;
     margin-top: 10px;
     text-shadow: 1px 1px 1px black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item {
+    background: none;
+    border-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Imagen-academia{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.Proyecto-1 {
+    width: 400px; 
+    height: auto; 
 }
